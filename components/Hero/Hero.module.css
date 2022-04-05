@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 80%;
+  padding: 1rem;
+}
+
+.profile-image {
+  width: 45vw;
+  margin: 0 auto;
+}

@@ -3,7 +3,7 @@ import Head from 'next/head'
 import AppHeader from '../AppHeader'
 import AppFooter from '../AppFooter'
 
-export default function AppLayout({ header, children }) {
+export default function AppLayout({ header, children, footer }) {
   return (
     <>
       <Head>
@@ -15,7 +15,7 @@ export default function AppLayout({ header, children }) {
       </Head>
       <AppHeader content={header} />
       <main>{children}</main>
-      <AppFooter />
+      <AppFooter content={footer} />
     </>
   )
 }
